@@ -1,0 +1,535 @@
+section .container .row.rowOne a .col-sm-3.col-md-3.d-flex.flex-column.align-items-center {
+    flex: 100% ;
+    max-width: 100%;
+    height: 187px;
+    justify-content: center;
+}
+section .container .row.rowOne a {
+    width: 33.3%;
+    color: #495057;
+}
+#subir {
+    z-index: 99999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFF;
+    border: 2px solid #00DB7A;
+    color: #00DB7A;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#subir svg {
+    font-size: 30px;
+}
+#carouselPartners .carousel-inner .carousel-item picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#carouselPartners {
+    width: 60%;
+    height: 100%;
+}
+#carouselPartners .carousel-inner, 
+#carouselPartners .carousel-inner .carousel-item,
+#carouselPartners .carousel-inner .carousel-item picture {
+    height: 100%;
+}
+#carouselPartners a.carousel-control-prev {
+    background-color: #DDD;
+    left: -62px;
+}
+#carouselPartners a.carousel-control-next {
+    right: -62px;
+    background: #DDD;
+}
+a.btn.btn-green {
+    background: #32BA46;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #32BA46;
+    transition: all 0.5s linear;
+}
+a.btn.btn-green:hover {
+    color: #32BA46;
+    background-color: #FFF;
+}
+a.btn.btn-green svg {
+    margin-left: 15px;
+}
+
+header {
+    padding: 4% 0%;
+    background-image: url("../img/fundo-desktop.webp");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header .container .row .col-sm-12.col-md-12 .logo {
+    padding: 8% 0% 6%;
+}
+header .container .row .col-sm-12.col-md-12 p.h1 {
+    background-color: #FFF;
+    color: #11dd83;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+header .container .row .col-sm-12.col-md-12 p.txt {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 2.5% 0%;
+    width: 65%;
+}
+header .container .row .col-sm-12.col-md-12 a.button {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 2px solid #FFF;
+    background-color: #00874b;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 30px;
+    width: 25%;
+    font-size: 16px;
+    margin-bottom: 4%;
+}
+header .container .row .col-sm-12.col-md-12 a.button strong {
+    margin-right: 20px;
+}
+section .container .row.rowOne {
+    padding:5% 0%;
+}
+section .container .row .col-sm-3.col-md-3 {
+    padding: 20px;
+}
+section .container .row .col-sm-3.col-md-3 p {
+    text-align: center;
+    margin: 15px 0px;
+    padding: 0% 15%;
+    font-size: 16px;
+}
+#partners.parceiros .container .row.justify-content-center .col-md-6.d-flex.justify-content-center.align-items-center {
+    height: 200px;
+}
+section .container .row .col-sm-3.col-md-3 picture img.parceiros,
+section .container .row .col-md-8 picture img {
+    width: 100%;
+}
+section .container.img,
+section .container.ETE,
+section.green {
+    padding: 1.5% 0%;
+}
+section .container .row .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+section .container.ETE .row .col-md-4 .d-flex.flex-column.ex p {
+    font-size: 17px;
+}
+section .container.ETE .row .col-md-4 .d-flex.flex-column p {
+    color: #11dd83;
+    font-size: 20px;
+}
+section .container .row .col-md-8 .slide.carousel .carousel-item picture img {
+    height: 454px !important;
+    object-fit: cover;
+}
+section .container.ETE .row .col-md-4.ex {
+    padding: 0;
+}
+section .container.ETE .row .col-md-4 p.txt.ex {
+    font-size: 13px;
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+section .container.ETE .row .col-md-4 p.txt {
+    width: 86%;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+section#novoHorizonte.bombinhas .container.ETE .button {
+    padding: 3% 0;
+    display: flex;
+    justify-content: center;
+}
+section#novoHorizonte.bombinhas .container.ETE .button a {
+    color: #FFF;
+    background: #08c772;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+section.curupy, section.capim, section.bombinhas {
+    background-color: #FFF !important;
+}
+section.image .container.imagem .row picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.image .container.imagem .row picture img {
+    width: 60%;
+}
+section.image .container.imagem .row {
+    position: relative;
+}
+section .img,
+section .img picture img,
+section.image .container.imagem .row .txtMap,
+section.image .container.imagem .row picture.ping,
+section.image .container.imagem .row picture.ping2,
+section.image .container.imagem .row picture.ping3,
+section.image .container.imagem .row picture.ping4 {
+    position: absolute;
+}
+section.image .container.imagem .row picture.ping {
+    top: 68%;
+    left: 48%;
+}
+section.image .container.imagem .row picture.ping2 {
+    bottom: 13%;
+    left: 51%;
+}
+section.image .container.imagem .row picture.ping3 {
+    top: 90%;
+    right: 40%;
+} 
+section.image .container.imagem .row picture.ping4 {
+    bottom: 12.5%;
+    right: 40.5%;
+}
+section.image .container.imagem .row .txtMap {
+    left: 40%;
+    top: 18%;
+}
+section.image .container.imagem .row .txtMap p strong {
+    font-size: 35px;
+    color: #11dd83;
+    background: #FFF;
+    padding: 5px 30px;
+    width: 95%;
+    text-align: center;
+    border-radius: 5px;
+}
+section.image .container.imagem .row .txtMap p {
+    margin-bottom: 5px;
+    color: grey;
+    font-size: 20px;
+    background-color: #FFF;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 30px;
+    border: 1.5px solid #11dd83;
+}
+section .img {
+    left: 50%;
+}
+section .img picture img {
+    bottom: -25px;
+}
+section .img.top picture img {
+    bottom: -125px;
+}
+section.parceiros {
+    padding: 4% 0%;
+    background-color: #FFF;
+}
+section#vigano .container.ETE .col-md-12.d-flex.flex-column.align-items-center.justify-content-center p.h1,
+section.parceiros .container .row .col-md-6 p.h1 {
+    text-align: center;
+    color: #11dd83;
+    box-shadow: 1px 1px 5px 1px grey;
+    padding: 7px 25px;
+    border-radius: 5px;
+}
+section#vigano .container.ETE .col-md-12.d-flex.flex-column.align-items-center.justify-content-center p.p1,
+section.parceiros .container .row .col-md-6 p.p1 {
+    color: grey;
+    font-size: 20px;
+    background: #FFF;
+    padding: 7px 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px;
+}
+section#vigano .container.ETE .col-md-12.d-flex.flex-column.align-items-center.justify-content-center {
+    margin-bottom: 8%;
+}
+section.parceiros .container .row .col-md-6 picture img.parceiros {
+    width: 100%;
+}
+section.green {
+    background-color: #08c772;
+}
+section.green .container .title p.h1 {
+    color: #11dd83;
+    background-color: #FFF;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 3% 0% 3px 0%;
+}
+section.green .container .title p {
+    color: grey;
+    background: #FFF;
+    padding: 10px 10%;
+    border-radius: 5px;
+}
+section.green .container .row {
+    justify-content: space-between;
+}
+section.green .container .row .col-sm-4 {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 33% !important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section.green .container .row .col-sm-4:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #FFF;
+    bottom: -20px;
+    left: 80%;
+}
+section.green .container .row .col-sm-4 .name picture img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+section.green .container .row .col-sm-4 .name.d-flex .n1 p.h5 {
+    color: black;
+}
+section.green .container .row .col-sm-4 .texto p {
+    text-align: center;
+}
+section.green .container .row .col-sm-4 .name.d-flex .n1 p, 
+section.green .container .row .col-sm-4 .texto p {
+    color: grey;
+}
+section.green .container .row .col-sm-4 .audio {
+    margin-top: 5%;
+}
+section.green {
+    padding-bottom: 4%;
+}
+section.green .container .row .col-sm-4 .audio audio {
+    border-radius: 30px;
+}
+footer {
+    background-color: #00874b;
+    padding: 4% 0%;
+}
+footer .container .row .col-sm-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .container .row .col-sm-3 p {
+    color: white;
+    font-size: 18px;
+}
+footer .container .row .col-sm-3 a {
+    width: 70%;
+}
+
+footer .container .row .col-sm-3 a p svg {
+    margin-right: 10px;
+}
+footer .container .row .col-sm-3 a p.d-flex.align-items-center {
+    padding-left: 14px;
+}
+footer .container .row .col-sm-3 a.btn.btn-green {
+    width: 80%;
+    margin-top: 10px !important;
+}
+
+section.image .container.imagem .row.mob {
+    display: none;
+}
+@media only screen and (min-width:320px) and (max-width:768px) {
+    section#vigano .container.ETE .col-md-12.d-flex.flex-column.align-items-center.justify-content-center {
+        margin-bottom: 15%;
+    }
+    section .img.top picture img {
+        bottom: -108px;
+    }
+    section#vigano .container.ETE .col-md-12.d-flex.flex-column.align-items-center.justify-content-center p.h1 {
+        font-size: 27px;
+    }
+    #carouselPartners {
+        width: 100%;
+    }
+    #carouselPartners a.carousel-control-prev {
+        left: 0px;
+    }
+    #carouselPartners a.carousel-control-next {
+        right: 0px;
+    }
+    #partners.parceiros .container .row.justify-content-center .col-md-6.d-flex.justify-content-center.align-items-center.player {
+        height: auto;
+    }
+    @media only screen and (min-width:375px) and (max-width:400px) {
+        a.btn.btn-green {
+            left: 14%;
+        }
+    }
+    @media only screen and (min-width:401px) and (max-width:440px) {
+        a.btn.btn-green {
+            left: 19%;
+        }
+    }
+    @media only screen and (min-width:320px) and (max-width:374px) {
+        a.btn.btn-green {
+            left: 9%;
+            font-size: 17px;
+        }
+    }
+    section .container .row.rowOne {
+        display: flex;
+        flex-direction: column;
+    }
+    section .container .row.rowOne a {
+        width: 100% !important;
+    }
+    section.parceiros .container .row .col-md-6 picture img.parceiros {
+        width: 100%;
+    }
+    section .container.ETE .row .col-md-4.ex {
+        padding: 0px 10px;
+    }
+    header .container .row .col-sm-12.col-md-12 p.h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    header {
+        background-image: url("../img/fundo-mobile.webp") !important;
+    }
+    section .container.img, section .container.ETE, section.green {
+        padding: 8.5% 0%;
+    }
+    header .container .row .col-sm-12.col-md-12 .logo {
+        padding: 20% 0% 15%;
+    }
+    header .container .row .col-sm-12.col-md-12 p.txt,
+    header .container .row .col-sm-12.col-md-12 a.button {
+        width: 90%;
+    }
+    header .container .row .col-sm-12.col-md-12 a.button {
+        margin-bottom: 15%;
+    }
+    section.image .container.imagem .row {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section .container {
+        margin: 0;
+        padding: 0;
+    }
+    section .container .row {
+        width: 100%;
+        margin: 0;
+    }
+    section.image .container.imagem .row .txtMap {
+        width: 100%;
+        left: 0%;
+        top: 4%;
+    }
+    section.image .container.imagem .row .txtMap p strong {
+        font-size: 24px;
+        padding: 0;
+    }
+    section.image .container.imagem .row .txtMap p {
+        font-size: 13px;
+    }
+    section.image .container.imagem .row picture img {
+        width: 100%;
+    }
+    section.parceiros {
+        padding: 10% 0%;
+    }
+    section.parceiros .container .row .col-md-6.d-flex.flex-column.align-items-center.justify-content-center {
+        margin-bottom: 20px;
+    }
+    section .container .row .col-md-4 {
+        padding-left: 10%;
+    }
+    section .container .row .col-md-4 div.d-flex.flex-column {
+        margin-bottom: 20px;
+    }
+    section#novoHorizonte.bombinhas .container.ETE .button {
+        padding: 15% 0% 8%;
+    }
+    section.green .container .title p.h1 {
+        text-align: center;
+        font-size: 23px;
+        font-weight: bold;
+    }
+    section.green .container .row .col-sm-4 {
+        max-width: 95% !important;
+        margin-bottom: 25px;
+        padding: 10px;
+    }
+    section.green .container .row {
+        justify-content: center;
+    }
+    footer {
+        padding: 10% 0%;
+    }
+    footer .container .row .col-sm-3 {
+        padding: 5% 0%;
+    }
+    footer .container .row .col-sm-3 p {
+        margin-bottom: 0;
+        text-align: center;
+    }
+    footer .container .row .col-sm-3 a {
+        display: flex;
+        justify-content: center;
+    }
+    @media only screen and (min-width:320px) and (max-width:374px) {
+        section .img {
+            left: 43%;
+        }
+        section#vigano .container.ETE .col-md-12.d-flex.flex-column.align-items-center.justify-content-center p.h1,
+        section.parceiros .container .row .col-md-6 p.h1 {
+            text-align: center;
+            font-size: 27px;
+        }
+        section#vigano .container.ETE .col-md-12.d-flex.flex-column.align-items-center.justify-content-center p.p1,
+        section.parceiros .container .row .col-md-6 p.p1 {
+            font-size: 16px;
+        }
+    }
+    @media only screen and (min-width:375px) and (max-width:425px) {
+        section .img {
+            left: 45%;
+        }
+    }
+}
